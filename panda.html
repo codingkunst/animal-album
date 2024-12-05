@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🐨🐼🐧</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>🐨🐼🐧</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="tab-bar">
+        <a href="/"><div>All</div></a>
+        <a href="/penguin.html"><div>Penguin</div></a>
+        <a href="/koala.html"><div>Koala</div></a>
+        <a href="/panda.html" class="clicked"><div>Panda</div></a>
+      </div>
+      <div class="content"></div>
+    </div>
+    <script src="./src/panda.js"></script>
+  </body>
 </html>
